@@ -13,9 +13,8 @@ def criaPdf(dir, saida):
 
     merger.close()
 
-dir = '/d/OS695-19_PM-Angra-Reis/Cadastro/CartaNotificacao/42/20221028_4/'
-# dir = '/o/OS898-21_PM-VitoriaConquista/Cadastro/CartaAutoAtendimento/CartasGeradas/67514/20221024_6/'
-saida = '/home/rodney/Área de Trabalho/'
+dir = '/home/rodney/pdf/' # Pasta onde se localiza os PDF's.
+saida = '/home/rodney/Área de Trabalho/' # Local onde será salvo os PDF's unidos.
 
 criaPdf(dir,saida)
 
